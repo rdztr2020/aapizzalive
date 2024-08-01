@@ -1,0 +1,110 @@
+
+
+#menu{
+    background: url(../images/bricks.jpeg);
+    border-top: 1px solid red;
+    min-height: 100vh;
+    height: auto;
+}
+
+.menu-title{
+color:black;
+text-align: center;
+padding: 0px;
+font-size:3em ;
+margin: 0;
+
+}
+
+p{
+    font-size: 1em;
+    color:lightgreen;
+}
+
+.menu-price{
+    float: right;
+}
+
+.tabs-container
+{
+    display: flex-box;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+        
+}
+
+.tabHeader{
+    display: block;
+    border: none;
+    outline: none;
+    background: black;
+    color: #eee;
+    padding:6px;
+    font-size: .75em;
+    cursor: pointer;
+    
+    height:auto;
+    justify-content: space-evenly;
+}
+
+.active-tab{
+    border: 1px solid #eee !important;
+    border-bottom: none !important;
+    background:red;
+}
+
+.tabSection{
+
+    /*text-align: center;*/
+    
+    border: 1px solid red;
+    padding: 15px;
+    background-color: black;
+}
+
+.tabTitle
+{
+    color: white;
+    font-size: 2em;
+    font-family: 'Teko',sans-serif;
+}
+
+.hide-tab{
+    display: none;
+}
+
+.show-tab{
+    display: block;
+}
+
+h3{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+}
+
+.tabs
+{
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1px;
+    
+    
+}
+
+
